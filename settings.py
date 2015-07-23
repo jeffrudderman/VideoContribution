@@ -29,10 +29,6 @@ global_data = {
         "question": "The secret to a long, happy marriage. \n Advice for a groom, bride or both. \n General congratulations and best wishes. \n  Words of wisdom on life and/or marriage.",
         "limit": 90,
         "required": True
-    }, {
-        "question": "General congratulations and best wishes",
-        "limit": 90,
-        "required": True
     }],
     "FIELDS": [{
         "label": "Your Name",
