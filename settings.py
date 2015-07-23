@@ -26,12 +26,12 @@ os.environ["STRING_INTRO"] = "As a surprise gift for Katie and Jason at their we
 
 global_data = {
     "VIDEOS": [{
-        "question": "Why are you interested in the position?",
+        "question": "The secret to a long, happy marriage.<br />Advice for a groom, bride or both.",
         "limit": 90,
         "required": True
     }, {
-        "question": "What inspires you the most, and why?",
-        "limit": 120,
+        "question": "General congratulations and best wishes",
+        "limit": 90,
         "required": True
     }],
     "FIELDS": [{
