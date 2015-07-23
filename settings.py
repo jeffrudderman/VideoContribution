@@ -47,28 +47,28 @@ global_data = {
         "placeholder": "",
         "required": True
     }, {
-        "label": "Location",
+        "label": "Contact phone number",
         "name": "location",
         "type": "text",
-        "placeholder": "Where are you now?",
+        "placeholder": "(###) ###-####",
         "required": True
     }, {
-        "label": "You, on the Web",
+        "label": "Relation to Katie or Jason",
         "name": "web",
         "type": "textarea",
-        "placeholder": "Any public social links that help us get to know you. (Please put each link on a new line.)",
+        "placeholder": "ex: Friends, Colleagues, Sister, Cousin, Long Lost Buddy, BFF, etc.",
         "required": True
     }, {
-        "label": "Projects",
+        "label": "Who is your video from?",
         "name": "projects",
         "type": "textarea",
-        "placeholder": "Any links to projects you've built or worked on. (Please put each link on a new line.)",
+        "placeholder": "ex: The Smiths; or Ralph and Susan Smith; or Ralph, Susan, Mark, Kathy and Jessica Smith",
         "required": False
     }, {
-        "label": "CV",
+        "label": "Cover picture, if you'd like to provide one.",
         "name": "cv",
         "type": "file",
-        "placeholder": "Your CV (PDF, DOC, TXT)",
+        "placeholder": "Your nice photo (JPG, PNG)",
         "required": False
     }]
 }
