@@ -29,7 +29,7 @@
 				{% end %}
 				</ol>
 				<p> 
-					We are using <a href="http://ziggeo.com" target="_blank">Ziggeo</a> to record videos securely and privately. Your submission will be available only to our employees and will be deleted when this process is completed.
+					Although your video will not be played publicly at any of the wedding events, Jason and Katie will hopefully keep these videos for years and may choose to share them… so please use discretion.
 				</p>
 				<p>When you're ready, continue to the next screen where you can start the video recorder.</p>
 				
@@ -53,6 +53,7 @@
 					<ziggeo ziggeo-tags="{{ submission["username"] }},question{{video_index}}"
 						    ziggeo-limit={{ global_data['VIDEOS'][video_index - 1]["limit"] }}
 						    ziggeo-input_bind="videotoken"
+						    ziggeo-perms='allowupload'
 						    {% if global_data['VIDEOS'][video_index - 1]["required"] %}
 						    ziggeo-form_accept="#apply-form"
 						    {% end %}
