@@ -23,10 +23,13 @@
 			</div>
 			
 			<p>
-				<b>STEP 1:</b> Fill out the form below.
+				<b>OVERVIEW:</b> As a surprise gift for Katie and Jason at their wedding, we are collecting a photo and brief (90 seconds or less) video from their friends and family to commemorate their marriage. We encourage everyone to participate, even if you are not able to attend the wedding.
 			</p>
 			<p>
-				<b>STEP 2:</b> Record short video response{{ '' if len(global_data["VIDEOS"]) == 1 else 's' }} on the following page{{ '' if len(global_data["VIDEOS"]) == 1 else 's' }}:
+				<b>STEP 1:</b> Fill out the form below. Please take a few minutes to upload a photo of you, you and your spouse or significant other, or your family. This should be a relatively current photo. A casual, fun photo is fine, or if you prefer to provide something more formal, that’s ok too.
+			</p>
+			<p>
+				<b>STEP 2:</b> We also need a brief video, and here’s the fun part…. Your 90 second video should be directed to Jason and Katie, and should include any or all of the following topics:
 			</p>
 			<ul>
 				{% for video in global_data["VIDEOS"] %}
@@ -34,8 +37,8 @@
 					</li>
 				{% end %}
 			</ul>
-			<p><i>Hint: The browser will prompt you to record using your computer's camera and microphone. Please make sure you're all set in a quiet space.</i> </p>			
-			
+			<p><i>Hint: The browser will prompt you to record using your computer's camera and microphone. Please make sure you're all set in a quiet, well lit space.</i> </p>
+
 			<p>
 				<b>STEP 3:</b> Submit.
 			</p>
