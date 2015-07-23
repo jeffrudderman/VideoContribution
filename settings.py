@@ -26,7 +26,7 @@ os.environ["STRING_INTRO"] = "As a surprise gift for Katie and Jason at their we
 
 global_data = {
     "VIDEOS": [{
-        "question": "The secret to a long, happy marriage.- Advice for a groom, bride or both.- General congratulations and best wishes.- Words of wisdom on life and/or marriage.".split("."),
+        "question": q = "The secret to a long, happy marriage.- Advice for a groom, bride or both.- General congratulations and best wishes.- Words of wisdom on life and/or marriage." ques = q.split(".") for que in ques: print(que),
         "limit": 90,
         "required": True
     }, {
