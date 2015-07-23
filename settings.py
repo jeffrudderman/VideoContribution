@@ -17,9 +17,9 @@ os.environ['PATH'] = "/app/bin:/app/vendor/nginx/sbin:/app/vendor/php/bin:/app/v
 os.environ['TZ'] = "US/Eastern"
 os.environ['PROJECT_ROOT'] = os.path.abspath(os.path.join(os.path.dirname(__file__)))
 
-os.environ['SITE_TITLE'] = "The Gift"
-os.environ['APPLY_TITLE'] = "Contribute"   
-os.environ['STRING_BOTTOM'] = "© 2015 Jeff Rudderman.  All rights reserved."
+os.environ['SITE_TITLE'] = "Applicant Tracking"
+os.environ['APPLY_TITLE'] = "Apply"
+os.environ['STRING_BOTTOM'] = "Developed with love by Jeff Rudderman."
 os.environ['STRING_CONFIRMATION'] = "We will begin reviewing contributions shortly, and we will be in touch if we need anything else."
 os.environ["STRING_WELCOME"] = "Thanks for taking the time to contribute!"
 os.environ["STRING_INTRO"] = "As a surprise gift for Katie and Jason at their wedding, we are collecting a photo and brief (1 min or less) video from their friends and family to commemorate their marriage. We encourage everyone to participate, even if you are not able to attend the wedding."
