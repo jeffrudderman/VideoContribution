@@ -17,7 +17,7 @@ os.environ['PATH'] = "/app/bin:/app/vendor/nginx/sbin:/app/vendor/php/bin:/app/v
 os.environ['TZ'] = "US/Eastern"
 os.environ['PROJECT_ROOT'] = os.path.abspath(os.path.join(os.path.dirname(__file__)))
 
-os.environ['SITE_TITLE'] = "Applicant Tracking"
+os.environ['SITE_TITLE'] = "Video Contribution"
 os.environ['APPLY_TITLE'] = "Apply"
 os.environ['STRING_BOTTOM'] = "Developed with love by Jeff Rudderman."
 os.environ['STRING_CONFIRMATION'] = "We will begin reviewing contributions shortly, and we will be in touch if we need anything else."
