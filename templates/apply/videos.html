@@ -18,9 +18,9 @@
 				<div class="alert alert-success">
 					<b>Thanks!</b>
 				</div>
-				<p>Next, we'd like to ask you
-				   {{ 'a question' if len(global_data["VIDEOS"]) == 1 else "some questions" }},
-				   which you can respond to using the embedded video recorder.
+				<p>Next, we’d like to ask you to video your response to any or all of
+				   {{ 'a question' if len(global_data["VIDEOS"]) == 1 else "these questions" }},
+				   OR upload your pre-recorded video response:
 				   The {{ 'question is' if len(global_data["VIDEOS"]) == 1 else "questions are" }}:</p>
 				<ol>
 				{% for video in global_data["VIDEOS"] %}
@@ -29,7 +29,7 @@
 				{% end %}
 				</ol>
 				<p> 
-					Although your video will not be played publicly at any of the wedding events, Jason and Katie will hopefully keep these videos for years and may choose to share them… so please use discretion.
+					Although your video will not be played publicly at any wedding events, Jason and katie will hopefully keep these videos for years, and may choose to share them….so use discretion. Remember, they’re lawyers so anything you say may be used…....
 				</p>
 				<p>When you're ready, continue to the next screen where you can start the video recorder.</p>
 				
