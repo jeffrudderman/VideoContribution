@@ -26,9 +26,9 @@ os.environ["STRING_INTRO"] = "Let's get started with the basics."
 
 global_data = {
     "VIDEOS": [{
-        "question": """What is the secret to a long, happy marriage?
-                       Words of Wizdom on marriage and/or life.
-                       Offer your congratulations and best wishes.""",
+        "question": """ What is the secret to a long, happy marriage?
+                       \n Words of Wizdom on marriage and/or life.
+                       \n Offer your congratulations and best wishes.""",
         "limit": 90,
         "required": True
     }],
