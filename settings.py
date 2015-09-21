@@ -55,10 +55,10 @@ global_data = {
         "placeholder": "ex: Friends, Colleagues, Sister, Cousin, Long Lost Buddy, BFF, etc.",
         "required": True
     }, {
-        "label": "Who is your video from?",
+        "label": "How would you like to sign your message?",
         "name": "projects",
         "type": "textarea",
-        "placeholder": "ex: The Smiths; or Ralph and Susan Smith; or Ralph, Susan, Mark, Kathy and Jessica Smith",
+        "placeholder": "ex: Ralph and Susan Smith; or Uncle Ralph and Aunt Susan",
         "required": False
     }, {
         "label": "Cover picture, if you'd like to provide one.",
