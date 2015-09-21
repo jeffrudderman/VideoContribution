@@ -18,10 +18,10 @@ os.environ['TZ'] = "US/Eastern"
 os.environ['PROJECT_ROOT'] = os.path.abspath(os.path.join(os.path.dirname(__file__)))
 
 os.environ['SITE_TITLE'] = "Video Contribution"
-os.environ['APPLY_TITLE'] = "Contribute"
+os.environ['APPLY_TITLE'] = "Wedding Wizdom"
 os.environ['STRING_BOTTOM'] = "Developed with love by Jeff Rudderman."
 os.environ['STRING_CONFIRMATION'] = "You're all set!  Thank you so much for taking the time."
-os.environ["STRING_WELCOME"] = "Thanks for taking the time to contribute!"
+os.environ["STRING_WELCOME"] = " - You are invited to share your thoughts with Jason and Katie on the secrets to having a long and happy marriage."
 os.environ["STRING_INTRO"] = "Let's get started with the basics."
 
 global_data = {
