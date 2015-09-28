@@ -18,8 +18,9 @@
 				<div class="alert alert-success">
 					<b>Thanks!</b>
 				</div>
-				<p>Next, we’d like to ask you to video your response to any or all of
-				   {{ 'a question' if len(global_data["VIDEOS"]) == 1 else "these questions" }},
+				<p>Thanks! Now it’s time to record, <b>OR</b> upload your previously recorded video.</p>
+				<p><b>Please keep your video to 90 seconds or less.</b></p>
+				   {{ 'Your topic again is:' if len(global_data["VIDEOS"]) == 1 else "these questions" }},
 				   OR upload your pre-recorded video response:
 				   The {{ 'question is' if len(global_data["VIDEOS"]) == 1 else "questions are" }}:</p>
 				<ol>
