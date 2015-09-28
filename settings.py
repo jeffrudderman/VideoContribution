@@ -21,7 +21,7 @@ os.environ['SITE_TITLE'] = "Video Contribution"
 os.environ['APPLY_TITLE'] = "Wedding Wizdom"
 os.environ['STRING_BOTTOM'] = "Developed with love by Jeff Rudderman."
 os.environ['STRING_CONFIRMATION'] = "You're all set!  Thank you so much for taking the time."
-os.environ["STRING_WELCOME"] = " - We are creating a SURPRISE wedding gift for Katie and Jason from their friends and family and request your participation.  It will only take a few minutes to provide a memory that will last a lifetime.  Deadline for your participation: TDB"
+os.environ["STRING_WELCOME"] = " - We are creating a SURPRISE wedding gift for Katie and Jason from their friends and family and request your participation. \n It will only take a few minutes to provide a memory that will last a lifetime.  Deadline for your participation: TDB"
 os.environ["STRING_INTRO"] = "Let's get started with the basics."
 
 global_data = {
