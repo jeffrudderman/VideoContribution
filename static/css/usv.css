@@ -60,6 +60,30 @@ a, a:active, a:visited {
     color: #fff;
 }
 
+img.main-pic {
+    max-width: 100%;
+}
+
+span.pic-frame {
+    border: 1px #fff solid;
+    display: block;
+    width: 94%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 95.5%;
+    margin: 3%;
+    z-index: 777;
+    opacity: 0.4;
+    transition: opacity 0.7s, transform 0.7s;
+    -webkit-transition: opacity 0.7s, 
+    -webkit-transform 0.7s;
+}
+
+.pic-container {
+    position: relative;
+}
+
 @media only screen and (-webkit-min-device-pixel-ratio:1.3), only screen and (min--moz-device-pixel-ratio:1.3), only screen and (-o-min-device-pixel-ratio:1.3 / 1), only screen and (min-resolution:125dpi), only screen and (min-resolution:1.3dppx) {
 	#mobile-logo {
 		background:transparent url(/static/img/usv-logo-green-70x70.png?v=2) no-repeat center center;
