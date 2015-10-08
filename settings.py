@@ -39,7 +39,7 @@ global_data = {
         "placeholder": "",
         "required": True
     }, {
-        "label": "Email",
+        "label": "Your Email",
         "name": "email",
         "type": "text",
         "placeholder": "",
@@ -63,10 +63,10 @@ global_data = {
         "placeholder": "ex: Ralph and Susan Smith; or Uncle Ralph and Aunt Susan",
         "required": False
     }, {
-        "label": "Cover picture, if you'd like to provide one.",
+        "label": "Upload your photo.",
         "name": "cv",
         "type": "file",
-        "placeholder": "Your nice photo (JPG, PNG)",
+        "placeholder": "Click button to upload photo (JPG, PNG)",
         "required": False
     }]
 }
