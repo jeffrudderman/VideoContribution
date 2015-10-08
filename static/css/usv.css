@@ -89,6 +89,10 @@ span.pic-frame {
 		background:transparent url(/static/img/usv-logo-green-70x70.png?v=2) no-repeat center center;
 		background-size:44px 44px;
 	}
+	
+	.pic-container {
+    		display: block;
+	}
 }
 
 .active,
