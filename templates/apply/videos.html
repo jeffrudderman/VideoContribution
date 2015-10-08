@@ -19,20 +19,17 @@
 					<b>Thanks!</b>
 				</div>
 				<p>Thanks! Now it’s time to record, <b>OR</b> upload your previously recorded video.</p>
-				<p><b>Please keep your video to 90 seconds or less.</b></p>
-				   {{ 'Your topic again is:' if len(global_data["VIDEOS"]) == 1 else "these questions" }},
-				   OR upload your pre-recorded video response:
-				   The {{ 'question is' if len(global_data["VIDEOS"]) == 1 else "questions are" }}:</p>
-				<ol>
-				{% for video in global_data["VIDEOS"] %}
-					<li><b>{{ video["question"] }}</b>
+				<ul>
+					<li><b>Please keep your video to 90 seconds or less.</b></li>
+					<li>Your topic again is:
+						<li>“What do you think the secret is to a long, happy marriage/relationship?"</li>
+						<li>*Remember: Your message can be serious and deep, funny and lighthearted, or both.</li>
 					</li>
-				{% end %}
-				</ol>
+				</ul>
 				<p> 
-					Although your video will not be played publicly at any wedding events, Jason and katie will hopefully keep these videos for years, and may choose to share them….so use discretion. Remember, they’re lawyers so anything you say may be used…....
+					Although your video will not be played publicly at any wedding events, Jason and Katie will hopefully keep these videos for years, and may choose to share them….so use discretion. Remember, they’re lawyers so anything you say may be used…....
 				</p>
-				<p>When you're ready, continue to the next screen where you can start the video recorder.</p>
+				<p><b>When you're ready, continue to the next screen where you can start the video recorder or upload your previously recorded video.</b></p>
 				
 				<div style="text-align:center">
 					<a class="btn btn-large btn-primary" id="lets-go">Ready? Let's go</a>
