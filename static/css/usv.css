@@ -81,6 +81,7 @@ span.pic-frame {
 }
 
 .pic-container {
+    display: block;
     position: relative;
 }
 
@@ -91,7 +92,7 @@ span.pic-frame {
 	}
 	
 	.pic-container {
-    		display: block;
+    		display: none;
 	}
 }
 
