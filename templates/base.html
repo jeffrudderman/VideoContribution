@@ -87,6 +87,7 @@
   <link rel="stylesheet" href="//assets.ziggeo.com/css/ziggeo-betajs-player.min.css" />
   <script src="//assets.ziggeo.com/js/ziggeo-json2-betajs-player.min.js"></script>
   <script>ZiggeoApi.token = "{{ settings.get('ZIGGEO_TOKEN') }}";</script>
+  <script>ZiggeoApi.Config.webrtc = true;</script>
   <script type="text/javascript" src="//api.filepicker.io/v1/filepicker.js"></script>
   <script>filepicker.setKey("{{ settings.get('FILE_PICKER_KEY') }}");</script>
   
